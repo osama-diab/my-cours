@@ -1,0 +1,59 @@
+.div0
+{
+    background:black;height: 60px;margin: 10px
+}
+.ol
+{
+    float: left;background: green;padding:16px;margin: auto
+}
+.op
+{
+    float: right;margin: 7px
+}
+.op:hover
+{
+    background:red;padding: 10px
+}
+.img-div
+{
+    border: solid #db9054;width: 400px;height: 500px;margin-top: 40px;display: inline-block
+}
+
+img
+{
+  width: 350px;height: 250px;margin: 20px 40px
+}
+div:hover .p1
+{
+  visibility: visible
+    
+}
+.p1
+{
+    padding-left:100px;visibility: hidden
+}
+h2
+{
+    padding-left: 100px;
+}
+.fixed-div
+{
+    background-image:url(../img/ops.jpg);background-repeat: no-repeat; height: 400px;border: solid;;background-size: 1300px 800px;margin: 40px 10px;background-attachment: fixed
+}
+.f-p
+{
+        visibility: visible;color: white;background-color: #333;margin-top: 150px;margin-left: 200px;width: 800px;height: 40px;
+    padding:  15px ;text-align: left;
+}
+.end
+{
+    height: 350px;width:1100px;background-image: url(../img/tyyy.jpg);background-attachment: fixed;margin: 100px auto 100px 50px;background-repeat: no-repeat;background-size: 1200px 900px;padding-top: 50px;border: solid
+}
+.p3
+{
+    visibility: visible;background-color:red;opacity:0.7;width: 900px;;margin-left: 70px;padding: 20px;;direction: rtl;font-size: 15px;text-align: right;color: white
+}
+.p4
+{
+    visibility: visible;background-color:blue;opacity:0.7;width: 900px;margin-left: 70px;padding: 20px;;font-size: 15px;text-align: left;color: white
+}
