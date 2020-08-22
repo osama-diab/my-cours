@@ -1,0 +1,111 @@
+.div1{
+    background: black;height: 45px;padding: 0px ;z-index: 1;position: fixed;width: 100%;height: 60px;left: 0px;top: 0px
+}
+li
+{
+    float: right; margin: 10px;  
+}
+.li1
+{
+    float: left;background:green;padding: 5px
+}
+.div2 a
+{
+  position: fixed;left:-95px;transition:0.5s ;padding: 15px;width: 100px;border-radius:  0 5px 5px 0;text-decoration: none;margin: 25px;z-index: 3
+}
+.div2 a:hover
+{
+    left: 0px;
+}
+.a1
+{
+    background: green;
+}
+.a2
+{
+    background: red
+}
+.a3
+{
+    background:aqua;
+}
+.a4
+{
+    background:orange
+}
+.div3
+{
+    position: absolute;z-index:2;padding-left: 80px;: 90px;margin: -120px 40px
+}
+h1
+{
+    font-size: 40px
+}
+dt
+{
+    background:black;color: floralwhite;width: 1140px;height: 40px;padding-left: 30px;position:sticky;top:60px
+}
+.div4
+{
+    background-image: url(../img/index.jpg);z-index: 4;margin-top:600px;width: 1340px;height: 400px;background-repeat: no-repeat;background-size: 100%;padding-top: 230px;background-attachment: fixed
+}
+.h3
+{
+       background: #333;padding: 20px;width: 80%;margin: 20px auto;max-height: 5px;overflow: hidden
+} 
+.h3:hover
+{
+  max-height: 35px
+}
+.div4:after
+{
+    content: "my name is osama diab";font-size: 40px;background: red;width: 100%;display: block;visibility: hidden
+}
+.div4:hover:after
+{
+    visibility: visible
+}
+.div5    
+{
+    background:green;padding: 20px;margin: 5px;font-size: 30px;margin-left: 60px
+}
+.div5>div
+{
+    background: red;padding:10px;transition: 0.9s
+}
+
+
+p:hover ~p
+{
+    background: black;color: azure;transition: 1s
+}
+
+.p12:hover ~p
+{
+    background: black;color: azure
+}
+
+.div6
+{
+    background: #eee;color: crimson;height: 200px;background-image: url(../img/index.jpg1.jpg);padding-top: 80px;background-attachment: fixed
+}
+
+.frist
+{
+    background:blue;margin: 10px;
+}
+ .frist:first-letter
+{
+    background: black; font-size:40px;border-radius:10px
+}
+
+ .frist:first-line
+{
+    color: lightcoral
+}
+
+.p12
+{
+    background-color: aqua
+}
+
