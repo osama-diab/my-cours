@@ -1,0 +1,141 @@
+body
+{
+    background:#ddd
+}
+.div1{
+    background: black;height: 45px;padding: 0px ;z-index: 1;position: fixed;width: 100%;height: 60px;left: 0px;top: 0px;
+}
+li
+{
+    float: right; margin: 10px;  
+}
+.li1
+{
+    float: left;background:green;padding: 5px;margin-top: -6px
+}
+.div2
+{
+   background-image: url(../img/2t.jpg);height: 300px;background-repeat: no-repeat;background-size: 100%;background-attachment: fixed;padding-top: 300px 
+}
+.p1
+{
+font-weight: bold;margin-right: 400px;background: green;float: right;border-radius: 50px
+}
+.p1:hover
+{
+   background:black;color: aliceblue;padding: 10px;border-radius: 50px
+}
+.p0
+{
+font-weight: bold;margin: auto 380px;color:black;width: 40%;background:black;color: antiquewhite;padding: 15px;border-radius: 50px
+}
+
+.div3
+{
+    background-image: url(../img/e1.jpg);height: 300px;background-repeat: no-repeat;background-size:100%;background-attachment: fixed;padding-top:300px;
+}
+.p3
+{
+    margin: auto 30px;font-size: 40px;color: azure;background: black
+}
+span
+{
+    background:green;color: black;font-size: 60px;margin-left: 370px;visibility: hidden
+}
+.p3:hover ~span
+{
+    visibility: visible
+}
+.div4
+{
+    
+}
+.h0
+{
+    text-align: center;background: black;color: floralwhite;font-size: 80px
+}
+.divdiv1
+{
+    border: solid;width: 300px;background:black;color: azure;display: inline-block;margin: 90px;float: left;margin-top: -50px;height: 400px
+}
+.divdiv2
+{
+     border: solid;width: 330px;background:black;color: azure;display: inline-block;height: 400px;float: left;margin-top: -50px
+}
+img
+{
+    margin-left: 22px;margin-top: 18px
+}
+.h1
+{
+    margin-left: 100px;visibility: hidden;margin-bottom: 10px
+}
+.p4
+{
+    margin-left: 60px;visibility: hidden
+}
+img:hover~.p4
+{
+    visibility:visible
+}img:hover~.h1
+{
+    visibility:visible
+}
+.img1
+{
+    margin-bottom: 20px
+}
+.img2
+{
+     margin-left: 50px
+}
+.img3
+{
+    margin-left: 50px
+}
+.h2
+{
+    font-size: 40px;margin-left: 130px;background: black;color: floralwhite;height: 60px;width: 1040px
+}
+
+
+.div5
+{
+    margin-top:500px
+}
+fieldset
+{
+    background:#eee
+}
+div6
+{
+    position: absolute;padding-left: 80px;: 90px;margin-top: 290px
+}
+h1
+{
+    font-size: 40px
+}
+dt
+{
+    background:black;color: floralwhite;width: 1310px;height: 40px;padding-left: 30px;position:sticky;top:60px
+}
+.form1
+{
+    margin-top: 70px
+}
+.text1
+{
+    height: 150px;width: 300px
+}
+.text1:hover
+{
+    height: 200px;width: 400px;border:solid 5px
+}
+.lable1
+{
+    color: brown
+}
+.lable1:hover
+{
+    background:black;color: azure;padding: 10px;border-radius: 100px
+}
